@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>FactSet.SDK.OpenCogCognitive</AssemblyName>
+    <PackageId>FactSet.SDK.OpenCogCognitive</PackageId>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <OutputType>Library</OutputType>
+    <Authors>FactSet Research Systems</Authors>
+    <Company>FactSet Research Systems</Company>
+    <AssemblyTitle>FactSet SDK</AssemblyTitle>
+    <Description>OpenCog Cognitive Architecture client library for .NET</Description>
+    <Copyright></Copyright>
+    <RootNamespace>FactSet.SDK.OpenCogCognitive</RootNamespace>
+    <Version>0.1.0</Version>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\FactSet.SDK.OpenCogCognitive.xml</DocumentationFile>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/factset/enterprise-sdk.git</RepositoryUrl>
+    <PackageProjectUrl>https://developer.factset.com</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>Initial release of OpenCog Cognitive Architecture SDK</PackageReleaseNotes>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageTags>FactSet;API;SDK;OpenCog;Cognitive;AI</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FactSet.SDK.Utils" Version="1.*" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.*" />
+    <PackageReference Include="System.Collections.Concurrent" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="\" />
+    <None Include="../../LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+</Project>

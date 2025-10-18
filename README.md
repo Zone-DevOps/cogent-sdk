@@ -12,6 +12,17 @@ The FactSet Enterprise SDK is made up of two main components, API client librari
 
 The auto-generated source code for the API client libraries can be found in the `code/` directory of this repository, which contains language-specific sub-directories and API-specific sub-directories under each language (e.g. `code/python/PAEngine`).
 
+### OpenCog Cognitive Architecture
+
+The SDK now includes the **OpenCog Cognitive Enterprise Architecture** - a comprehensive framework for building intelligent systems with human-like cognitive capabilities. This implementation provides:
+
+- **AtomSpace**: Hypergraph knowledge representation and storage
+- **Cognitive Reasoner**: Probabilistic and logical reasoning over knowledge graphs
+- **Pattern Matcher**: Advanced pattern recognition and matching
+- **Mind Agents**: Autonomous cognitive processing agents
+
+Available in Python, TypeScript/JavaScript, Java, and .NET. See the [OpenCog Cognitive Architecture documentation](docs/OpenCogCognitiveArchitecture.md) for more details.
+
 | **Language**          | **Client libraries**                                                                                  | **Utility library**                                                                |
 | --------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | .NET                  | [.NET source](https://github.com/factset/enterprise-sdk/tree/main/code/dotnet)                      | [.NET utilities](https://github.com/factset/enterprise-sdk-utils-dotnet)           |
