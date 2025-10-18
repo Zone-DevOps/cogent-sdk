@@ -11,7 +11,13 @@ from fds.sdk.OpenCogCognitive.nodes import ConceptNode, PredicateNode, VariableN
 from fds.sdk.OpenCogCognitive.links import ListLink, InheritanceLink, EvaluationLink
 from fds.sdk.OpenCogCognitive.reasoner import CognitiveReasoner, ReasoningConfig
 from fds.sdk.OpenCogCognitive.pattern_matcher import PatternMatcher, Pattern
-from fds.sdk.OpenCogCognitive.mind_agent import MindAgent, CogServer
+from fds.sdk.OpenCogCognitive.mind_agent import (
+    MindAgent, 
+    CogServer, 
+    AttentionAllocationAgent, 
+    ForgetAgent, 
+    HebbianLearningAgent
+)
 from fds.sdk.OpenCogCognitive.configuration import Configuration
 
 __all__ = [
@@ -31,5 +37,8 @@ __all__ = [
     'Pattern',
     'MindAgent',
     'CogServer',
+    'AttentionAllocationAgent',
+    'ForgetAgent',
+    'HebbianLearningAgent',
     'Configuration',
 ]
