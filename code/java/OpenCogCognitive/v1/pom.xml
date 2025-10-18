@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.factset.sdk</groupId>
+    <artifactId>opencogcognitive</artifactId>
+    <packaging>jar</packaging>
+    <name>opencogcognitive</name>
+    <version>0.1.0</version>
+    <url>https://github.com/FactSet/enterprise-sdk</url>
+    <description>OpenCog Cognitive Architecture client library for Java</description>
+    
+    <scm>
+        <connection>scm:git:git@github.com:FactSet/enterprise-sdk.git</connection>
+        <developerConnection>scm:git:git@github.com:FactSet/enterprise-sdk.git</developerConnection>
+        <url>http://github.com/FactSet/enterprise-sdk</url>
+    </scm>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>FactSet Research Systems</name>
+            <email>api@factset.com</email>
+            <organization>FactSet Research Systems</organization>
+            <organizationUrl>https://developer.factset.com/</organizationUrl>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.factset.sdk</groupId>
+            <artifactId>utils</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.10.1</version>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
